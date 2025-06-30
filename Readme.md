@@ -58,7 +58,6 @@ Essential libraries for ML, DL, visualization, and evaluation were imported.
 * Data re-scaled and split again
 
 ###  7. Machine Learning Models
-
 Trained and evaluated the following 8 models:
 * Logistic Regression
 * Decision Tree
@@ -69,20 +68,21 @@ Trained and evaluated the following 8 models:
 * Gradient Boosting
 * XGBoost
 
-All models evaluated using accuracy score.
+### 8. 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻 𝗠𝗲𝘁𝗿𝗶𝗰𝘀  
+Assessed model performance using 𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆, 𝗽𝗿𝗲𝗰𝗶𝘀𝗶𝗼𝗻, 𝗿𝗲𝗰𝗮𝗹𝗹, 𝗙𝟭-𝘀𝗰𝗼𝗿𝗲, 𝗮𝗻𝗱 𝗥𝗢𝗖-𝗔𝗨𝗖 𝗰𝘂𝗿𝘃𝗲 to ensure robust predictions
 
-###  8. Deep Learning (ANN)
-*Performed hyperparameter tuning to optimize model parameters including the number of hidden layers, neurons per layer, dropout rate, learning rate, activation function, epochs, and batch size. Implemented early stopping to prevent overfitting and achieve maximum model accuracy
+### 9. Deep Learning (ANN)
+* Performed hyperparameter tuning to optimize model parameters including the number of hidden layers, neurons per layer, dropout rate, learning rate, activation function, epochs, and batch size. Implemented early stopping to prevent overfitting and achieve maximum model accuracy
 * Built a 1-layer fully connected Artificial Neural Network
 * Hidden layers used **ReLU** activation
 * Final layer used **Softmax** for multiclass classification
 * Regularized using **Dropout**
 * Achieved \~98% accuracy on test set
 
-### 9. Model Evaluation
+### 10. Model Evaluation
 **Random Forest algorithm**  achieved a high accuracy of 99.55%  which was selected as the final model for the project.
 
-### 10. 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁
+### 11. 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁
 * Built an 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝘃𝗲 𝘄𝗲𝗯 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 using 𝗦𝘁𝗿𝗲𝗮𝗺𝗹𝗶𝘁, enabling real-time predictions based on user input.
 
 
