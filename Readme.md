@@ -1,9 +1,9 @@
 # Smart Crop Recommendation Model
+## Project Objective:
+To predict the most suitable crop to grow based on environmental and soil conditions using Machine Learning and Deep Learning models.
 
-
-
-| Feature         | Data Type   | Description                                                                |
-| --------------- | ----------- | -------------------------------------------------------------------------- |
+| Feature           | Data Type    | Description                                                                 |
+| :---------------: |:-----------: |:--------------------------------------------------------------------------: |
 | **N**           | Integer     | Nitrogen content in the soil (promotes leafy growth and chlorophyll)       |
 | **P**           | Integer     | Phosphorus content in the soil (supports root development and flowering)   |
 | **K**           | Integer     | Potassium content in the soil (improves crop health and stress resistance) |
