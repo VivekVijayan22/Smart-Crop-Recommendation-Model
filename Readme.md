@@ -3,10 +3,13 @@
 To predict the most suitable crop to grow based on environmental and soil conditions using Machine Learning and Deep Learning models.
 ## How can run model 
 For running the script you should have python-3 installed on your machine along with the libraries mentioned in requirements.txt. For installing Python you can refer any blog or Tutorial online. For installing requirements.txt just execute the below command in the command prompt or terminal. 
+
 **pip install -r requirements.txt**
+
 After Installing the required libraries you are good to go with the  script. You can clone or download zip file of this repository 
 offline in your machine. after downloading the repository, go to the folder where the repository is downloaded and open a command prompt from 
 that location. And then enter the following command. 
+
  **streamlit run App.py
 
  
@@ -22,13 +25,14 @@ that location. And then enter the following command.
 | **rainfall**    | Float       | Rainfall amount in mm (critical for hydration and root health)             |
 | **label**       | Categorical | Recommended crop name (target variable – e.g., rice, coconut, banana)      |
 
+
 Step-by-Step Workflow:
 
-1. Library Imports
+#### 1. Library Imports
 
 Essential libraries for ML, DL, visualization, and evaluation were imported.
 
-2. Dataset Load & Overview
+#### 2. Dataset Load & Overview
 
 * Dataset loaded successfully
 * No missing values
