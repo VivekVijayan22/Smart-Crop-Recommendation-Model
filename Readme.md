@@ -12,8 +12,9 @@ that location. And then enter the following command.
 
  **streamlit run App.py
 
+## Project Description
  
-##  Feature Summary
+###  Feature Summary
 | Feature           | Data Type    | Description                                                                 |
 | :---------------: |:-----------: |:--------------------------------------------------------------------------: |
 | **N**           | Integer     | Nitrogen content in the soil (promotes leafy growth and chlorophyll)       |
@@ -42,7 +43,7 @@ Essential libraries for ML, DL, visualization, and evaluation were imported.
 
 * Features (`X`) and target (`y`) separated
 * Features scaled using `StandardScaler`
-* Dataset split into 75% train, 25% test (with stratification)
+* Dataset split into 80% train, 20% test (with stratification)
 
 ####  4. Advanced EDA (15+ Visualizations)
 
@@ -82,7 +83,7 @@ All models evaluated using accuracy score.
 ---
 
 ###  8. Deep Learning (ANN)
-
+*Performed hyperparameter tuning to optimize model parameters including the number of hidden layers, neurons per layer, dropout rate, learning rate, activation function, epochs, and batch size. Implemented early stopping to prevent overfitting and achieve maximum model accuracy
 * Built a 1-layer fully connected Artificial Neural Network
 * Hidden layers used **ReLU** activation
 * Final layer used **Softmax** for multiclass classification
@@ -91,7 +92,11 @@ All models evaluated using accuracy score.
 
 ---
 
-9. Model Evaluation
+### 9. Model Evaluation
 
-**Random Forest**  which gives accuracy of 99.55 selected for confusion matrix and classification report
+**Random Forest algorithm**  achieved a high accuracy of 99.55%  which was selected as the final model for the project.
+
+### 10. 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁
+* Built an 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝘃𝗲 𝘄𝗲𝗯 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 using 𝗦𝘁𝗿𝗲𝗮𝗺𝗹𝗶𝘁, enabling real-time predictions based on user input.
+
 
