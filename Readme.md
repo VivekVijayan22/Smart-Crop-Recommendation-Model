@@ -37,27 +37,27 @@ Essential libraries for ML, DL, visualization, and evaluation were imported.
 * No missing values
 * Balanced target distribution
 
-3. Data Preprocessing
+### 3. Data Preprocessing
 * Features (`X`) and target (`y`) separated
 * Features scaled using `StandardScaler`
 * Dataset split into 80% train, 20% test (with stratification)
 
-####  4. Advanced EDA (15+ Visualizations)
+#### 4. Advanced EDA (15+ Visualizations)
 * Crop distribution barplot
 * Histograms for each numerical feature
 * Boxplots grouped by crop type
 * Correlation heatmap
 * Skewness analysis for numerical features
 
-####  5. Feature Engineering
+#### 5. Feature Engineering
 * Correlation analysis showed **no multicollinearity**
 * Detected skewed features: `K`, `P`, `rainfall`
 
-####  6. Label Encoding & Re-Splitting
+#### 6. Label Encoding & Re-Splitting
 * Target `label` column encoded with `LabelEncoder`
 * Data re-scaled and split again
 
-###  7. Machine Learning Models
+### 7. Machine Learning Models
 Trained and evaluated the following 8 models:
 * Logistic Regression
 * Decision Tree
