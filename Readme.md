@@ -82,7 +82,7 @@ Assessed model performance using 𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆, 𝗽𝗿𝗲�
 ### 10. Model Evaluation
 **Random Forest algorithm**  achieved a high accuracy of 99.55%  which was selected as the final model for the project.
 
-### 11. 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁
+### 11. Deployment
 * Built an 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝘃𝗲 𝘄𝗲𝗯 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 using 𝗦𝘁𝗿𝗲𝗮𝗺𝗹𝗶𝘁, enabling real-time predictions based on user input.
 
 
