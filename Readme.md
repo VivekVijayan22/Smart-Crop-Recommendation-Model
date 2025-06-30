@@ -30,23 +30,19 @@ that location. And then enter the following command.
 Step-by-Step Workflow:
 
 #### 1. Library Imports
-
 Essential libraries for ML, DL, visualization, and evaluation were imported.
 
 #### 2. Dataset Load & Overview
-
 * Dataset loaded successfully
 * No missing values
 * Balanced target distribution
 
 3. Data Preprocessing
-
 * Features (`X`) and target (`y`) separated
 * Features scaled using `StandardScaler`
 * Dataset split into 80% train, 20% test (with stratification)
 
 ####  4. Advanced EDA (15+ Visualizations)
-
 * Crop distribution barplot
 * Histograms for each numerical feature
 * Boxplots grouped by crop type
@@ -54,21 +50,16 @@ Essential libraries for ML, DL, visualization, and evaluation were imported.
 * Skewness analysis for numerical features
 
 ####  5. Feature Engineering
-
 * Correlation analysis showed **no multicollinearity**
 * Detected skewed features: `K`, `P`, `rainfall`
 
 ####  6. Label Encoding & Re-Splitting
-
 * Target `label` column encoded with `LabelEncoder`
 * Data re-scaled and split again
-
----
 
 ###  7. Machine Learning Models
 
 Trained and evaluated the following 8 models:
-
 * Logistic Regression
 * Decision Tree
 * Random Forest
@@ -80,8 +71,6 @@ Trained and evaluated the following 8 models:
 
 All models evaluated using accuracy score.
 
----
-
 ###  8. Deep Learning (ANN)
 *Performed hyperparameter tuning to optimize model parameters including the number of hidden layers, neurons per layer, dropout rate, learning rate, activation function, epochs, and batch size. Implemented early stopping to prevent overfitting and achieve maximum model accuracy
 * Built a 1-layer fully connected Artificial Neural Network
@@ -90,10 +79,7 @@ All models evaluated using accuracy score.
 * Regularized using **Dropout**
 * Achieved \~98% accuracy on test set
 
----
-
 ### 9. Model Evaluation
-
 **Random Forest algorithm**  achieved a high accuracy of 99.55%  which was selected as the final model for the project.
 
 ### 10. 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁
